@@ -181,3 +181,8 @@ display: inline-block;
     /* Makes box wrap around text */
     }
         
+.rounded-border {
+  border: 3px solid lavender;
+  border-radius: 10px;
+  padding: 5px; /* Optional: Adds spacing between image and border */
+}
