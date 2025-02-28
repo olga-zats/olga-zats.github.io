@@ -100,6 +100,12 @@ h2 {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
+  color: #8A7BB7; /* Dark Lavender */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.papertitle:hover {
+  color: #6A5499; /* Even darker lavender on hover */
 }
 
 .name {
@@ -169,20 +175,34 @@ display: inline-block;
   }
 
 .color-box-3 {
-    background-color: #d5e6b5;
-    /* Background color */
-    color: black;
-    /* Text color */
-    padding: 5px 10px;
-    /* Adjust padding for better fit */
-    border-radius: 10px;
-    /* Rounded edges */
-    display: inline-block;
-    /* Makes box wrap around text */
-    }
-        
+  background-color: #d2e3a3; /* Soft Matcha Green */
+  color: black; /* Text color */
+  padding: 5px 10px; /* Adjust padding for better fit */
+  border-radius: 10px; /* Rounded edges */
+  display: inline-block; /* Makes box wrap around text */
+}
+
 .rounded-border {
   border: 3px solid lavender;
   border-radius: 10px;
   padding: 5px; /* Optional: Adds spacing between image and border */
 }
+
+.color-box-link {
+  background-color: #B6A7D4; /* Soft Lavender */
+  color: white; /* White font */
+  padding: 6px 10px; /* More padding for a rounded button look */
+  border-radius: 5px; /* Fully rounded edges */
+  display: inline-block; /* Makes box wrap around text */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make text stand out */
+  font-size: 12px; /* Adjust font size */
+  text-align: center; /* Center text */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+  margin-top: 2px
+}
+
+.color-box-link:hover {
+  background-color: #A597C8; /* Slightly darker lavender on hover */
+}
+
